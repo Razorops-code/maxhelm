@@ -1,0 +1,10 @@
+# Config Map
+kind: ConfigMap 
+apiVersion: v1 
+metadata:
+  name: maxam-configmap
+data:
+  # Configuration values can be set as key-value properties
+  hostname: 139.59.47.89
+  username: raZorOpsK8s_UsEr
+  password: raZorOpsK8s_UsErpAssWd
